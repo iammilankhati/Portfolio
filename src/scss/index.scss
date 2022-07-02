@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&display=swap");
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Raleway;
+}
+
+@import "./landing";
+@import "./config";
+@import "./navbar";
+@import "./about";
+@import "./projects";
+@import "./modal";
+@import "./blog";
+@import "./contact";
+@import "./footer";
+
+.underline {
+	height: 0.25rem;
+	width: 4rem;
+	background: $text-color;
+	margin-left: auto;
+	margin-right: auto;
+}
+.active-btn {
+	color: #e01b6c;
+}
