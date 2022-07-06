@@ -23,6 +23,8 @@
 	//navnar
 	nav {
 		height: 3rem;
+		position: sticky !important;
+		top: 0 !important;
 		padding: 0 1rem;
 		ul {
 			li {
@@ -219,8 +221,7 @@
 				font-size: 0.8em;
 			}
 			.scroll-to-top {
-				font-size: 2rem;
-				top: -1.5rem;
+				font-size: 1.4rem;
 			}
 		}
 	}
@@ -364,7 +365,7 @@
 			}
 
 			.blogs {
-				grid-template-columns: repeat(2, 1fr);
+				grid-template-columns: repeat(1, 1fr);
 				padding: 0 5px;
 				gap: 5px;
 			}
@@ -382,7 +383,7 @@
 
 			form {
 				width: 100%;
-				padding: 2rem;
+				padding: 1rem;
 				button {
 					padding: 0.5rem 1rem;
 
@@ -410,8 +411,7 @@
 				font-size: 0.8em;
 			}
 			.scroll-to-top {
-				font-size: 2rem;
-				top: -1.5rem;
+				font-size: 1.4rem;
 			}
 		}
 	}

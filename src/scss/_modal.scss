@@ -67,8 +67,10 @@
 			padding: 1rem 1rem;
 
 			&--title {
-				margin-top: 1rem;
+				margin-top: 0.8rem;
 				color: #414141;
+				opacity: 0.9;
+				text-transform: capitalize;
 			}
 			&--work {
 				color: #999999;
@@ -80,7 +82,7 @@
 				margin: 5px 0 0.7rem 0;
 			}
 			hr {
-				opacity: 0.1;
+				opacity: 0.4;
 			}
 
 			&--description {
@@ -127,7 +129,7 @@
 				p {
 					color: #999999;
 					display: block;
-					font-size: 1.125rem;
+					font-size: 1.2rem;
 					font-weight: 400;
 					opacity: 0.77;
 					&:hover {

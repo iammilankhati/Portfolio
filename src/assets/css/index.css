@@ -79,7 +79,7 @@ nav {
   height: 3.5rem;
   background-color: #1b242f;
   border-bottom: 3px solid #04c2c9;
-  z-index: 999;
+  z-index: 9999999999;
   padding: 0 2rem;
   display: flex;
 }
@@ -492,8 +492,10 @@ nav .navLinks ul li a:hover {
 }
 
 .modal .wrapper .modal_footer--title {
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   color: #414141;
+  opacity: 0.9;
+  text-transform: capitalize;
 }
 
 .modal .wrapper .modal_footer--work {
@@ -507,7 +509,7 @@ nav .navLinks ul li a:hover {
 }
 
 .modal .wrapper .modal_footer hr {
-  opacity: 0.1;
+  opacity: 0.4;
 }
 
 .modal .wrapper .modal_footer--description {
@@ -560,7 +562,7 @@ nav .navLinks ul li a:hover {
 .modal .wrapper .modal_footer .base p {
   color: #999999;
   display: block;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   font-weight: 400;
   opacity: 0.77;
 }
@@ -759,10 +761,12 @@ nav .navLinks ul li a:hover {
 }
 
 .wrapper-footer .footer .scroll-to-top {
-  font-size: 2.5rem;
+  font-size: 2rem;
   background-color: #e01b6c;
-  position: absolute;
-  top: -2rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  z-index: 99;
 }
 
 .wrapper-footer .footer .scroll-to-top:hover {
@@ -791,6 +795,8 @@ nav .navLinks ul li a:hover {
   }
   nav {
     height: 3rem;
+    position: sticky !important;
+    top: 0 !important;
     padding: 0 1rem;
   }
   nav ul li {
@@ -938,8 +944,7 @@ nav .navLinks ul li a:hover {
     font-size: 0.8em;
   }
   .wrapper-footer .footer .scroll-to-top {
-    font-size: 2rem;
-    top: -1.5rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -1045,7 +1050,7 @@ nav .navLinks ul li a:hover {
     font-size: 2.125rem;
   }
   .wrapper-blog .blog .blogs {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     padding: 0 5px;
     gap: 5px;
   }
@@ -1060,7 +1065,7 @@ nav .navLinks ul li a:hover {
   }
   .wrapper-contact .contact form {
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
   }
   .wrapper-contact .contact form button {
     padding: 0.5rem 1rem;
@@ -1079,8 +1084,7 @@ nav .navLinks ul li a:hover {
     font-size: 0.8em;
   }
   .wrapper-footer .footer .scroll-to-top {
-    font-size: 2rem;
-    top: -1.5rem;
+    font-size: 1.4rem;
   }
 }
 
