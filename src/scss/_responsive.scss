@@ -11,7 +11,8 @@
 			}
 
 			button {
-				font-size: 1rem;
+				font-size: 1.125rem !important;
+				font-family: "Courier New", Courier, monospace;
 				padding: 7px 11px;
 				letter-spacing: 1px;
 				transition: all 0.3s linear;
@@ -380,9 +381,12 @@
 			}
 
 			form {
+				width: 100%;
+				padding: 2rem;
 				button {
 					padding: 0.5rem 1rem;
-					align-self: flex-end;
+
+					align-self: center !important;
 				}
 			}
 		}

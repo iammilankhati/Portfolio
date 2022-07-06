@@ -5,7 +5,7 @@ import { blogs } from "../components/Data";
 const Blog = () => {
 	useEffect(() => {
 		Aos.init({
-			duration: 1000,
+			duration: 900,
 		});
 	}, []);
 	return (

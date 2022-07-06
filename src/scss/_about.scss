@@ -155,11 +155,12 @@
 								width: 0% !important;
 								background-color: transparent;
 								transition: transform 1s ease-in-out;
-								transition: width 0.7s linear;
+								transition: width 0.5s linear;
 								&.aos-animate {
 									width: 100% !important;
 									// transform: translateX(0);
 									background-color: #00a1a7;
+									transition: width 0.5s linear;
 								}
 							}
 						}

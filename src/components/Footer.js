@@ -6,7 +6,7 @@ import { HiChevronDoubleUp } from "react-icons/hi";
 const Footer = () => {
 	useEffect(() => {
 		Aos.init({
-			duration: 2000,
+			duration: 900,
 		});
 	}, []);
 

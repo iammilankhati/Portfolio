@@ -12,7 +12,7 @@ const Projects = () => {
 
 	useEffect(() => {
 		Aos.init({
-			duration: 1000,
+			duration: 900,
 		});
 	});
 
