@@ -190,7 +190,7 @@ export const blogs = [
 	},
 	{
 		id: 2,
-		image: projectImage,
+		image: projectImage1,
 		title: "title of blog",
 		date: `${
 			month[new Date().getMonth()]
@@ -208,7 +208,7 @@ export const blogs = [
 	},
 	{
 		id: 4,
-		image: projectImage,
+		image: projectImage1,
 		title: "title of blog",
 		date: `${
 			month[new Date().getMonth()]

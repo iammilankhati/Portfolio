@@ -21,12 +21,12 @@ const Blog = () => {
 						return (
 							<div className='blog' key={blog.id}>
 								<div className='image'>
-									<img src={blog.image} alt='' />
+									<img src={blog.image} alt='image' />
 								</div>
 								<h2 className='blog_title'>{blog.title}</h2>
 								<p className='blog_date'>{blog.date}</p>
 								<div className='underline hr'></div>
-								<p className='blog_content'>{blog.content.substring(0, 100)}</p>
+								<p className='blog_content'>{blog.content.substring(0, 104)}</p>
 							</div>
 						);
 					})}

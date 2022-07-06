@@ -108,8 +108,7 @@
 					li {
 						padding: 0;
 						.button {
-							margin: 5px;
-							padding: 7px 10px;
+							padding: 7px 15px !important;
 							font-weight: 500;
 							font-size: 0.7rem;
 						}
@@ -221,7 +220,7 @@
 				font-size: 0.8em;
 			}
 			.scroll-to-top {
-				font-size: 1.4rem;
+				font-size: 1.6rem;
 			}
 		}
 	}
@@ -321,8 +320,8 @@
 					li {
 						padding: 0;
 						.button {
-							margin: 5px;
-							padding: 7px 10px;
+							margin: 0;
+							padding: 7px 7px !important;
 							font-weight: 500;
 							font-size: 0.7rem;
 						}
@@ -411,7 +410,7 @@
 				font-size: 0.8em;
 			}
 			.scroll-to-top {
-				font-size: 1.4rem;
+				font-size: 1.6rem;
 			}
 		}
 	}
