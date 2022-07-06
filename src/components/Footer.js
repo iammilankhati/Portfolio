@@ -23,11 +23,10 @@ const Footer = () => {
 						);
 					})}
 				</ul>
-				<p>
-					{" "}
-					<p>MILAN KHATI </p>
+				<article>
+					<p>MILAN KHATI</p>
 					<span> &copy;2022</span>
-				</p>
+				</article>
 
 				<div className='scroll-to-top' onClick={scrollToTop}>
 					<HiChevronDoubleUp />

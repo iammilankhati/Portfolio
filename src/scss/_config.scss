@@ -2,3 +2,19 @@ $text-color: #45474a;
 $secondary-color: #04c2c9;
 $bar_width: 100%;
 $secondary-text: #726f6f;
+
+@mixin lg {
+	@media screen and (max-width: 692px) {
+		@content;
+	}
+}
+@mixin md {
+	@media screen and (max-width: 480px) {
+		@content;
+	}
+}
+
+@mixin sm {
+	@media screen and (max-width: 360px) {
+	}
+}

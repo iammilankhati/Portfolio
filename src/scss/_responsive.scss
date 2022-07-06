@@ -1,0 +1,414 @@
+@include lg {
+	.landing {
+		&__content {
+			padding: 1rem;
+			line-height: 2.3rem;
+			h1 {
+				font-size: 2rem;
+			}
+			&--name {
+				font-size: 2.1rem;
+			}
+
+			button {
+				font-size: 1rem;
+				padding: 7px 11px;
+				letter-spacing: 1px;
+				transition: all 0.3s linear;
+			}
+		}
+	}
+
+	//navnar
+	nav {
+		height: 3rem;
+		padding: 0 1rem;
+		ul {
+			li {
+				padding: 7px 30px 7px 0;
+				a {
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+
+	//aboutme
+	.wrapper-about {
+		.about {
+			padding: 3rem 0;
+
+			h1 {
+				font-size: 1.75rem;
+			}
+
+			.features {
+				.feature {
+					.icon {
+						font-size: 2.5rem;
+
+						//polygon
+						width: 75px;
+						height: 75px; /* width * 0.866 */
+					}
+					&_name {
+						margin-top: 1rem;
+						font-size: 1rem;
+					}
+					&_text {
+						letter-spacing: 0.3px;
+						font-size: 0.8rem !important;
+					}
+				}
+			}
+			.me {
+				flex-direction: column;
+				align-items: center;
+				gap: 2rem;
+				&_info {
+					width: 90%;
+					&--image {
+						width: 240px;
+						height: 216.5px;
+					}
+					&--name {
+						padding: 1rem;
+						color: #626262;
+						font-size: 1rem;
+					}
+
+					p {
+						font-size: 0.8rem !important;
+					}
+				}
+				&_skills {
+					width: 90%;
+
+					.name_bar {
+						font-size: 0.7rem !important;
+					}
+				}
+			}
+		}
+	}
+
+	//projects
+	.wrapper-project {
+		.projects {
+			.title {
+				font-size: 1.75rem !important;
+			}
+
+			&_main {
+				.tabs {
+					margin: 2rem 0;
+					li {
+						padding: 0;
+						.button {
+							margin: 5px;
+							padding: 7px 10px;
+							font-weight: 500;
+							font-size: 0.7rem;
+						}
+					}
+				}
+				.projects_list {
+					grid-template-columns: repeat(2, 1fr);
+					padding: 0 5px;
+					width: 100%;
+					gap: 5px;
+
+					&--item {
+						.overlay {
+							&_text {
+								.name {
+									font-weight: 500;
+								}
+							}
+							.button {
+								padding: 0.5rem 0.7rem;
+								margin: 0;
+								font-weight: 500;
+								font-size: 0.8rem;
+							}
+						}
+						img {
+							height: 250px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	//blog
+	.wrapper-blog {
+		.blog {
+			h1 {
+				font-size: 1.75rem !important;
+			}
+
+			.blogs {
+				grid-template-columns: repeat(2, 1fr);
+				padding: 0 5px !important;
+				gap: 5px;
+
+				.blog {
+					padding: 1rem 0;
+					&_title {
+						text-transform: capitalize;
+						color: #414141;
+						font-size: 1rem;
+						margin: 0.3rem 0;
+					}
+					&_date {
+						font-size: 0.6rem;
+						margin-top: 0.2rem 0;
+					}
+					.hr {
+						height: 2px;
+						margin: 0.7rem 0;
+					}
+				}
+			}
+		}
+	}
+	//contact
+	.wrapper-contact {
+		clip-path: polygon(0% 0%, 50% 5%, 100% 0%, 100% 100%, 0% 100%);
+		.contact {
+			padding: 1rem 0 7rem 0;
+
+			h1 {
+				font-size: 1.5rem !important;
+			}
+			p {
+				font-size: 0.8rem !important;
+			}
+			form {
+				input {
+					font-size: 0.8rem !important;
+				}
+				textarea {
+					font-size: 0.9rem !important;
+				}
+				button {
+					padding: 0.5rem 1rem;
+					align-self: center !important;
+				}
+			}
+		}
+	}
+
+	//footer
+	.wrapper-footer {
+		.footer {
+			ul {
+				gap: 15px;
+				li {
+					a {
+						display: block;
+						padding: 0.5rem;
+						font-size: 1.125rem;
+						color: #fff;
+					}
+				}
+			}
+			article {
+				font-size: 0.8em;
+			}
+			.scroll-to-top {
+				font-size: 2rem;
+				top: -1.5rem;
+			}
+		}
+	}
+}
+
+@include md {
+	.landing {
+		&__content {
+			padding: 0.5rem;
+			line-height: 2rem;
+			h1 {
+				font-size: 1.3rem;
+			}
+			&--name {
+				font-size: 1.5rem;
+			}
+
+			button {
+				font-size: 0.7rem;
+				padding: 7px 11px;
+				letter-spacing: 1px;
+				transition: all 0.3s linear;
+			}
+		}
+	}
+
+	//navnar
+	nav {
+		height: 3rem;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		padding: 0;
+		position: relative;
+		.bars {
+			display: block;
+			position: absolute;
+			right: 0.5rem;
+			height: 100%;
+			display: flex;
+			align-items: center;
+
+			&__icon {
+				font-size: 25px;
+			}
+		}
+		.navLinks {
+			align-self: flex-start;
+			position: absolute;
+			margin-top: 2.5rem;
+			width: 100%;
+			overflow: hidden;
+			transition: all 0.3s linear;
+			background: #242c3c;
+			ul {
+				padding: 1rem;
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+			}
+		}
+	}
+
+	//aboutme
+	.wrapper-about {
+		.about {
+			.features {
+				display: grid;
+				gap: 1.5rem;
+				.feature {
+					.icon {
+						//polygon
+						width: 80px;
+						height: 80px; /* width * 0.866 */
+					}
+
+					&_text {
+						letter-spacing: 0.3px;
+						font-size: 0.9rem;
+						padding: 0.3rem 2rem;
+					}
+				}
+			}
+		}
+	}
+
+	//projects
+	.wrapper-project {
+		.projects {
+			.title {
+				font-size: 2.125rem;
+			}
+
+			&_main {
+				.tabs {
+					margin: 2rem 0;
+					li {
+						padding: 0;
+						.button {
+							margin: 5px;
+							padding: 7px 10px;
+							font-weight: 500;
+							font-size: 0.7rem;
+						}
+					}
+				}
+				.projects_list {
+					grid-template-columns: repeat(2, 1fr);
+					padding: 0 5px;
+					width: 100%;
+					gap: 5px;
+
+					&--item {
+						.overlay {
+							&_text {
+								.name {
+									font-weight: 500;
+								}
+							}
+							.button {
+								padding: 0.5rem 0.7rem;
+								margin: 0;
+								font-weight: 500;
+								font-size: 0.8rem;
+							}
+						}
+						img {
+							height: 250px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	//blog
+	.wrapper-blog {
+		.blog {
+			h1 {
+				font-size: 2.125rem;
+			}
+
+			.blogs {
+				grid-template-columns: repeat(2, 1fr);
+				padding: 0 5px;
+				gap: 5px;
+			}
+		}
+	}
+	//contact
+	.wrapper-contact {
+		clip-path: polygon(0% 0%, 50% 5%, 100% 0%, 100% 100%, 0% 100%);
+		.contact {
+			padding: 1rem 0 7rem 0;
+
+			h1 {
+				font-size: 2.125rem;
+			}
+
+			form {
+				button {
+					padding: 0.5rem 1rem;
+					align-self: flex-end;
+				}
+			}
+		}
+	}
+
+	//footer
+	.wrapper-footer {
+		.footer {
+			ul {
+				gap: 15px;
+				li {
+					a {
+						display: block;
+						padding: 0.5rem;
+						font-size: 1.125rem;
+						color: #fff;
+					}
+				}
+			}
+			article {
+				font-size: 0.8em;
+			}
+			.scroll-to-top {
+				font-size: 2rem;
+				top: -1.5rem;
+			}
+		}
+	}
+}

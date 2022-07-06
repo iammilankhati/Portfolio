@@ -149,12 +149,16 @@
 								background: #00a1a7;
 							}
 
+							//sliding animation
 							[data-aos="rising-bar"] {
-								transform: translateX(-100%);
+								// transform: translateX(-100%);
+								width: 0% !important;
 								background-color: transparent;
 								transition: transform 1s ease-in-out;
+								transition: width 0.7s linear;
 								&.aos-animate {
-									transform: translateX(0);
+									width: 100% !important;
+									// transform: translateX(0);
 									background-color: #00a1a7;
 								}
 							}
