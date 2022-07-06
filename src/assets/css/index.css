@@ -611,7 +611,7 @@ nav .navLinks ul li a:hover {
   text-transform: capitalize;
   color: #414141;
   font-size: 1.2rem;
-  margin: 0.5rem 0;
+  margin: 0.8rem 0 0.5rem 0 !important;
 }
 
 .wrapper-blog .blog .blogs .blog_date {
@@ -626,7 +626,7 @@ nav .navLinks ul li a:hover {
   background: #2df2f2;
   border-radius: 5px;
   color: #2df2f2;
-  margin: 0.9rem 0;
+  margin: 0.5rem 0 !important;
 }
 
 .wrapper-blog .blog .blogs .blog_content {

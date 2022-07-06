@@ -209,7 +209,7 @@ export const blogs = [
 	{
 		id: 4,
 		image: projectImage1,
-		title: "title of blog",
+		title: "why strings are immutable ?",
 		date: `${
 			month[new Date().getMonth()]
 		}${" "}${new Date().getDay()}, ${new Date().getFullYear()}`,
