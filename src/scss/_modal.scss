@@ -11,11 +11,10 @@
 
 	.wrapper {
 		max-width: 568px;
-		margin: 2rem auto;
+		margin: 6rem auto;
 
 		.modal_slider {
 			display: flex;
-			// flex-direction: row;
 			position: relative;
 			overflow: hidden;
 			height: 300px;
@@ -82,7 +81,7 @@
 				margin: 5px 0 0.7rem 0;
 			}
 			hr {
-				opacity: 0.4;
+				opacity: 0.3;
 			}
 
 			&--description {
@@ -101,7 +100,7 @@
 					display: flex;
 					align-items: center;
 					gap: 8px;
-					padding: 7px 15px;
+					padding: 9px 15px;
 					background: #e01b6c;
 					border: none;
 					font-size: 0.7rem;

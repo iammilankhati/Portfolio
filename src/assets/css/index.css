@@ -51,7 +51,7 @@ body {
   border: 1px solid #fff;
   padding: 9px 15px;
   display: inline-block;
-  margin: 1.9rem auto;
+  margin: 2.8rem auto;
   letter-spacing: 1px;
   transition: all 0.3s linear;
 }
@@ -432,7 +432,7 @@ nav .navLinks ul li a:hover {
 
 .modal .wrapper {
   max-width: 568px;
-  margin: 2rem auto;
+  margin: 6rem auto;
 }
 
 .modal .wrapper .modal_slider {
@@ -509,7 +509,7 @@ nav .navLinks ul li a:hover {
 }
 
 .modal .wrapper .modal_footer hr {
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 .modal .wrapper .modal_footer--description {
@@ -529,7 +529,7 @@ nav .navLinks ul li a:hover {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 7px 15px;
+  padding: 9px 15px;
   background: #e01b6c;
   border: none;
   font-size: 0.7rem;
