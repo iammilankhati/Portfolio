@@ -3,7 +3,7 @@
 		max-width: 1160px;
 		margin: 0 auto;
 		background: #ffffff;
-		padding: 3rem 0;
+		padding: 5rem 0;
 
 		h1 {
 			font-size: 2.5rem;
@@ -19,6 +19,11 @@
 			display: grid;
 			grid-template-columns: repeat(4, 1fr);
 			gap: 1rem;
+
+			.blog_link {
+				text-decoration: none;
+				color: #414141;
+			}
 			.blog {
 				.image {
 					height: 250px;

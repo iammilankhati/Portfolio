@@ -17,7 +17,7 @@ const Modal = ({ data, modalState, setModalState }) => {
 							<img
 								key={index}
 								src={image}
-								alt='image'
+								alt='model'
 								className={
 									(currentImg > index && "nextImg") ||
 									(currentImg < index && "prevImg")

@@ -271,6 +271,7 @@ nav .navLinks ul li a:hover {
   width: 100%;
   background: #eeeeee;
   z-index: 0;
+  overflow: hidden;
 }
 
 .wrapper-about .about .me_skills .me_skill--bar .bar_cover .progress_bar {
@@ -279,16 +280,16 @@ nav .navLinks ul li a:hover {
 }
 
 .wrapper-about .about .me_skills .me_skill--bar .bar_cover [data-aos="rising-bar"] {
-  width: 0% !important;
+  transform: translateX(-100%);
   background-color: transparent;
   transition: transform 1s ease-in-out;
-  transition: width 0.5s linear;
+  transition: all 1s linear;
 }
 
 .wrapper-about .about .me_skills .me_skill--bar .bar_cover [data-aos="rising-bar"].aos-animate {
-  width: 100% !important;
+  transform: translateX(0);
   background-color: #00a1a7;
-  transition: width 0.5s linear;
+  transition: all 1s linear;
 }
 
 .wrapper-about .about .me_skills .me_skill--bar .percentage {
@@ -425,7 +426,7 @@ nav .navLinks ul li a:hover {
   left: 0;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.5));
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.7));
   opacity: 3;
   color: #fff;
 }
@@ -576,7 +577,7 @@ nav .navLinks ul li a:hover {
   max-width: 1160px;
   margin: 0 auto;
   background: #ffffff;
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 
 .wrapper-blog .blog h1 {
@@ -593,6 +594,11 @@ nav .navLinks ul li a:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+}
+
+.wrapper-blog .blog .blogs .blog_link {
+  text-decoration: none;
+  color: #414141;
 }
 
 .wrapper-blog .blog .blogs .blog .image {

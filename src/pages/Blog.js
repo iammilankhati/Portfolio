@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
-import myphoto from "../assets/images/img-2.jpg";
 import Aos from "aos";
 import { blogs } from "../components/Data";
+import { BrowserRouter as Router } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 const Blog = () => {
 	useEffect(() => {
 		Aos.init({
@@ -19,15 +20,21 @@ const Blog = () => {
 				<div className='blogs'>
 					{blogs.map((blog) => {
 						return (
-							<div className='blog' key={blog.id}>
-								<div className='image'>
-									<img src={blog.image} alt='image' />
-								</div>
-								<h2 className='blog_title'>{blog.title}</h2>
-								<p className='blog_date'>{blog.date}</p>
-								<div className='underline hr'></div>
-								<p className='blog_content'>{blog.content.substring(0, 104)}</p>
-							</div>
+							<Router key={blog.id}>
+								<Link to='#' className='blog_link'>
+									<div className='blog' key={blog.id}>
+										<div className='image'>
+											<img src={blog.image} alt='blog' />
+										</div>
+										<h2 className='blog_title'>{blog.title}</h2>
+										<p className='blog_date'>{blog.date}</p>
+										<div className='underline hr'></div>
+										<p className='blog_content'>
+											{blog.content.substring(0, 104)} <strong>...</strong>
+										</p>
+									</div>
+								</Link>
+							</Router>
 						);
 					})}
 				</div>

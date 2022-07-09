@@ -5,45 +5,47 @@ import { IoIosRocket } from "react-icons/io";
 import { FaLinkedin, FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
 import projectImage from "../assets/images/img-1.jpg";
 import projectImage1 from "../assets/images/img-2.jpg";
+import teach from "../assets/images/teach.png";
+import fullstack from "../assets/images/fullstack.png";
 
 export const Features = [
 	{
 		id: 1,
 		icon: <MdSpeed />,
 		name: "Fast",
-		text: "Fast load times and lag free interaction, my highest priority.",
+		text: "Speed has always been my priority, I have knowledge, experience and technology",
 	},
 	{
 		id: 2,
 		icon: <BiDesktop />,
 		name: "Responsive",
-		text: "Fast load times and lag free interaction, my highest priority.",
+		text: "My layouts perfectly fits on any device from mobile to desktop",
 	},
 	{
 		id: 3,
 		icon: <FaLightbulb />,
 		name: "Intuitive",
-		text: "Fast load times and lag free interaction, my highest priority.",
+		text: "Strong preference for easy to use, intuitive UX/UI",
 	},
 	{
 		id: 4,
 		icon: <IoIosRocket />,
 		name: "Dynamic",
-		text: "Fast load times and lag free interaction, my highest priority.",
+		text: "Websites don't have to static, I love making pages come to life",
 	},
 ];
 export const Skills = [
 	{ id: 1, skill: "CSS", percentage: 90 },
 	{ id: 2, skill: "HTML", percentage: 90 },
-	{ id: 3, skill: "React", percentage: 85 },
-	{ id: 4, skill: "Javascript", percentage: 85 },
-	{ id: 5, skill: "Node.js", percentage: 90 },
-	{ id: 6, skill: "Python", percentage: 85 },
-	{ id: 7, skill: "Django", percentage: 85 },
-	{ id: 8, skill: "MySQL", percentage: 85 },
-	{ id: 9, skill: "Mongodb", percentage: 90 },
-	{ id: 10, skill: "Figma", percentage: 85 },
-	{ id: 11, skill: "Photoshop", percentage: 80 },
+	{ id: 3, skill: "React", percentage: 80 },
+	{ id: 4, skill: "Javascript", percentage: 80 },
+	{ id: 5, skill: "Node.js", percentage: 70 },
+	{ id: 6, skill: "Python", percentage: 65 },
+	{ id: 7, skill: "Django", percentage: 65 },
+	{ id: 8, skill: "MySQL", percentage: 80 },
+	{ id: 9, skill: "Mongodb", percentage: 60 },
+	{ id: 10, skill: "Figma", percentage: 65 },
+	{ id: 11, skill: "Photoshop", percentage: 50 },
 ];
 
 export const links = [
@@ -163,6 +165,70 @@ export const projects = [
 			visit: "https://www.google.com",
 		},
 	},
+	{
+		id: 6,
+		image: projectImage1,
+		name: "projectname",
+		category: "MERN-STACK",
+		technologies: "rect/django",
+		model: {
+			image1: projectImage,
+			image2: projectImage1,
+			image3: projectImage,
+			name: "project name",
+			work: "main work here",
+			desc: "desc of project",
+			visit: "https://www.google.com",
+		},
+	},
+	{
+		id: 7,
+		image: projectImage1,
+		name: "projectname",
+		category: "MERN-STACK",
+		technologies: "rect/django",
+		model: {
+			image1: projectImage,
+			image2: projectImage1,
+			image3: projectImage,
+			name: "project name",
+			work: "main work here",
+			desc: "desc of project",
+			visit: "https://www.google.com",
+		},
+	},
+	{
+		id: 8,
+		image: projectImage1,
+		name: "projectname",
+		category: "MERN-STACK",
+		technologies: "rect/django",
+		model: {
+			image1: projectImage,
+			image2: projectImage1,
+			image3: projectImage,
+			name: "project name",
+			work: "main work here",
+			desc: "desc of project",
+			visit: "https://www.google.com",
+		},
+	},
+	{
+		id: 9,
+		image: projectImage1,
+		name: "projectname",
+		category: "MERN-STACK",
+		technologies: "rect/django",
+		model: {
+			image1: projectImage,
+			image2: projectImage1,
+			image3: projectImage,
+			name: "project name",
+			work: "main work here",
+			desc: "desc of project",
+			visit: "https://www.google.com",
+		},
+	},
 ];
 const month = [
 	"January",
@@ -181,45 +247,31 @@ const month = [
 export const blogs = [
 	{
 		id: 1,
-		image: projectImage,
-		title: "title of blog",
+		image: fullstack,
+		title: "Journey of a Full Stack developer",
 		date: `${
 			month[new Date().getMonth()]
 		}${" "}${new Date().getDay()}, ${new Date().getFullYear()}`,
-		content: `Lorizzle ipsizzle dolor phat amet, consectetuer adipiscing elizzle. We gonna chung sapizzle velit, dang shizzle my nizzle crocodizzle, gangster quis, gravida vizzle, arcu. Ghetto i'm in the shizzle tortor. Crunk ghetto. izzle dolizzle dapibizzle turpis tempus crazy. Maurizzle bizzle nibh phat turpis. Rizzle izzle fo shizzle. Sheezy eleifend rhoncizzle shizzle my nizzle crocodizzle. In dizzle habitasse platea dictumst. Fizzle dapibizzle. Curabitur tellus urna, pretizzle eu, mattizzle ac, eleifend vitae, nunc. The bizzle suscipizzle. Integer sempizzle velizzle ass break yo neck, yall.`,
+		content: `Back end developers are responsible for creating the pathways to deliver information to and from users who operate front end interfaces. This is where full stack development comes in. “Full stack” refers to the entirety of a site or application's front and back end architecture.`,
 	},
 	{
 		id: 2,
-		image: projectImage1,
-		title: "title of blog",
+		image: teach,
+		title: "Teach what you learn",
 		date: `${
 			month[new Date().getMonth()]
 		}${" "}${new Date().getDay()}, ${new Date().getFullYear()}`,
-		content: `Lorizzle ipsizzle dolor phat amet, consectetuer adipiscing elizzle. We gonna chung sapizzle velit, dang shizzle my nizzle crocodizzle, gangster quis, gravida vizzle, arcu. Ghetto i'm in the shizzle tortor. Crunk ghetto. izzle dolizzle dapibizzle turpis tempus crazy. Maurizzle bizzle nibh phat turpis. Rizzle izzle fo shizzle. Sheezy eleifend rhoncizzle shizzle my nizzle crocodizzle. In dizzle habitasse platea dictumst. Fizzle dapibizzle. Curabitur tellus urna, pretizzle eu, mattizzle ac, eleifend vitae, nunc. The bizzle suscipizzle. Integer sempizzle velizzle ass break yo neck, yall.`,
-	},
-	{
-		id: 3,
-		image: projectImage,
-		title: "title of blog",
-		date: `${
-			month[new Date().getMonth()]
-		}${" "}${new Date().getDay()}, ${new Date().getFullYear()}`,
-		content: `Lorizzle ipsizzle dolor phat amet, consectetuer adipiscing elizzle. We gonna chung sapizzle velit, dang shizzle my nizzle crocodizzle, gangster quis, gravida vizzle, arcu. Ghetto i'm in the shizzle tortor. Crunk ghetto. izzle dolizzle dapibizzle turpis tempus crazy. Maurizzle bizzle nibh phat turpis. Rizzle izzle fo shizzle. Sheezy eleifend rhoncizzle shizzle my nizzle crocodizzle. In dizzle habitasse platea dictumst. Fizzle dapibizzle. Curabitur tellus urna, pretizzle eu, mattizzle ac, eleifend vitae, nunc. The bizzle suscipizzle. Integer sempizzle velizzle ass break yo neck, yall.`,
-	},
-	{
-		id: 4,
-		image: projectImage1,
-		title: "why strings are immutable ?",
-		date: `${
-			month[new Date().getMonth()]
-		}${" "}${new Date().getDay()}, ${new Date().getFullYear()}`,
-		content: `Lorizzle ipsizzle dolor phat amet, consectetuer adipiscing elizzle. We gonna chung sapizzle velit, dang shizzle my nizzle crocodizzle, gangster quis, gravida vizzle, arcu. Ghetto i'm in the shizzle tortor. Crunk ghetto. izzle dolizzle dapibizzle turpis tempus crazy. Maurizzle bizzle nibh phat turpis. Rizzle izzle fo shizzle. Sheezy eleifend rhoncizzle shizzle my nizzle crocodizzle. In dizzle habitasse platea dictumst. Fizzle dapibizzle. Curabitur tellus urna, pretizzle eu, mattizzle ac, eleifend vitae, nunc. The bizzle suscipizzle. Integer sempizzle velizzle ass break yo neck, yall.`,
+		content: `The best way to learn something is to teach it. I started doing this accidentally. In 2016, I started presenting on my college classes. My presentations were not good, but I learned lots just by preparing for them.`,
 	},
 ];
 
 export const social = [
-	{ id: 1, icon: <FaFacebook />, link: "https://www.facebook.com" },
-	{ id: 2, icon: <FaLinkedin />, link: "https://www.linkedin.com" },
+	{ id: 1, icon: <FaFacebook />, link: "https://www.facebook.com/Iam.ilankc" },
+	{
+		id: 2,
+		icon: <FaLinkedin />,
+		link: "https://www.linkedin.com/in/milan-khati-376a59198/",
+	},
 	{ id: 3, icon: <FaInstagram />, link: "https://www.instagram.com" },
 	{ id: 4, icon: <FaGithub />, link: "https://www.github.com" },
 ];

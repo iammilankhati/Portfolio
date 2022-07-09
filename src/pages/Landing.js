@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";

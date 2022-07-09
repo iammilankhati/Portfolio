@@ -1,8 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import { Features, Skills } from "../components/Data";
 import myphoto from "../assets/images/img-2.jpg";
 import ProgressBar from "../components/ProgressBar";
 import Aos from "aos";
+import { BrowserRouter as Router } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const About = () => {
 	useEffect(() => {
@@ -38,10 +40,13 @@ const About = () => {
 						</div>
 						<h2 className='me_info--name'>Who's this guy?</h2>
 						<p>
-							I'm a Front-End Developer for ChowNow in Los Angeles, CA. I have
-							serious passion for UI effects, animations and creating intuitive,
-							dynamic user experiences.
-							<a href=''>Let's make something special</a>
+							I'm a Full Stack developer at Smart Solutions in Kathmandu, Nepal.
+							I Have serious passion for making product from scratch and
+							building things beautiful, secure, intuitive, reponsive,fast and
+							dynamic.
+							<Router>
+								<Link to='#contact'>Let's make something special</Link>
+							</Router>
 						</p>
 					</div>
 					<div className='me_skills'>
