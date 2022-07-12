@@ -272,6 +272,6 @@ export const social = [
 		icon: <FaLinkedin />,
 		link: "https://www.linkedin.com/in/milan-khati-376a59198/",
 	},
-	{ id: 3, icon: <FaInstagram />, link: "https://www.instagram.com" },
-	{ id: 4, icon: <FaGithub />, link: "https://www.github.com" },
+	{ id: 3, icon: <FaInstagram />, link: "https://www.instagram.com/ilan_kc/" },
+	{ id: 4, icon: <FaGithub />, link: "https://github.com/iammilankhati/" },
 ];
