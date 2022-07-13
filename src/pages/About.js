@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Features, Skills } from "../components/Data";
-import myphoto from "../assets/images/img-2.jpg";
+import myphoto from "../assets/images/logo.png";
 import ProgressBar from "../components/ProgressBar";
 import Aos from "aos";
 import { BrowserRouter as Router } from "react-router-dom";

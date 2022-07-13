@@ -80,7 +80,7 @@ nav {
   background-color: #1b242f;
   border-bottom: 3px solid #04c2c9;
   z-index: 9999999999;
-  padding: 0 2rem;
+  padding: 10px 2rem 0 10%;
   display: flex;
 }
 
@@ -214,6 +214,8 @@ nav .navLinks ul li a:hover {
 
 .wrapper-about .about .me_info--image .myphoto {
   width: 100%;
+  object-fit: contain;
+  object-position: bottom;
 }
 
 .wrapper-about .about .me_info--name {

@@ -3,10 +3,18 @@ import { BiDesktop } from "react-icons/bi";
 import { FaLightbulb } from "react-icons/fa";
 import { IoIosRocket } from "react-icons/io";
 import { FaLinkedin, FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
-import projectImage from "../assets/images/img-1.jpg";
-import projectImage1 from "../assets/images/img-2.jpg";
+import projectImage from "../assets/images/portfolio.png";
+import projectImage1 from "../assets/images/loginform.png";
 import teach from "../assets/images/teach.png";
-import fullstack from "../assets/images/fullstack.png";
+import fullstack from "../assets/images/fullstack.jpg";
+import cocktail1 from "../assets/images/cocktail1.PNG";
+import cocktail2 from "../assets/images/cocktail2.PNG";
+import cocktail3 from "../assets/images/cocktail3.PNG";
+import cocktail from "../assets/images/cocktail.png";
+import signup from "../assets/images/signup.png";
+import signuperror from "../assets/images/signuperror.png";
+import signupsuccess from "../assets/images/signupsuccess.png";
+import samplegif from "../assets/images/project1.gif";
 
 export const Features = [
 	{
@@ -84,36 +92,36 @@ export const categorys = [
 export const projects = [
 	{
 		id: 1,
-		image: projectImage,
+		image: projectImage1,
 		name: "project name",
 		category: "JAVASCRIPT",
 		technologies: "rect/django",
 
 		model: {
-			image1: projectImage,
-			image2: projectImage,
-			image3: projectImage,
+			image1: signup,
+			image2: signuperror,
+			image3: signupsuccess,
 			name: "project name",
 			work: "main work here",
 			desc: "desc of project",
-			visit: "https://www.google.com",
+			visit: "https://myform101.netlify.app",
 		},
 	},
 	{
 		id: 2,
-		image: projectImage,
+		image: cocktail,
 		name: "project name",
 		category: "PYTHON/DJANGO",
 		technologies: "rect/django",
 
 		model: {
-			image1: projectImage,
-			image2: projectImage1,
-			image3: projectImage,
+			image1: cocktail1,
+			image2: cocktail2,
+			image3: cocktail3,
 			name: "project name",
 			work: "main work here",
 			desc: "desc of project",
-			visit: "https://www.google.com",
+			visit: "https://mydrinks101.netlify.app/",
 		},
 	},
 	{
@@ -124,29 +132,29 @@ export const projects = [
 		technologies: "rect/django",
 
 		model: {
-			image1: projectImage1,
-			image2: projectImage1,
-			image3: projectImage,
+			image1: signup,
+			image2: signuperror,
+			image3: signupsuccess,
 			name: "project name",
 			work: "main work here",
 			desc: "desc of project",
-			visit: "https://www.google.com",
+			visit: "https://myform101.netlify.app",
 		},
 	},
 	{
 		id: 4,
-		image: projectImage,
+		image: cocktail,
 		name: "projectname",
 		category: "mern-stack",
 		technologies: "rect/django",
 		model: {
-			image1: projectImage1,
-			image2: projectImage,
-			image3: projectImage1,
+			image1: cocktail1,
+			image2: cocktail2,
+			image3: cocktail3,
 			name: "project name",
 			work: "main work here",
 			desc: "desc of project",
-			visit: "https://www.google.com",
+			visit: "https://mydrinks101.netlify.app/",
 		},
 	},
 	{
@@ -162,23 +170,23 @@ export const projects = [
 			name: "project name",
 			work: "main work here",
 			desc: "desc of project",
-			visit: "https://www.google.com",
+			visit: "https://myform101.netlify.app",
 		},
 	},
 	{
 		id: 6,
-		image: projectImage1,
+		image: cocktail,
 		name: "projectname",
 		category: "MERN-STACK",
 		technologies: "rect/django",
 		model: {
-			image1: projectImage,
-			image2: projectImage1,
-			image3: projectImage,
+			image1: cocktail1,
+			image2: cocktail2,
+			image3: cocktail3,
 			name: "project name",
 			work: "main work here",
 			desc: "desc of project",
-			visit: "https://www.google.com",
+			visit: "https://mydrinks101.netlify.app/",
 		},
 	},
 	{
@@ -194,7 +202,7 @@ export const projects = [
 			name: "project name",
 			work: "main work here",
 			desc: "desc of project",
-			visit: "https://www.google.com",
+			visit: "https://myform101.netlify.app",
 		},
 	},
 	{
@@ -210,7 +218,7 @@ export const projects = [
 			name: "project name",
 			work: "main work here",
 			desc: "desc of project",
-			visit: "https://www.google.com",
+			visit: "https://myform101.netlify.app",
 		},
 	},
 	{
@@ -226,7 +234,7 @@ export const projects = [
 			name: "project name",
 			work: "main work here",
 			desc: "desc of project",
-			visit: "https://www.google.com",
+			visit: "https://myform101.netlify.app",
 		},
 	},
 ];

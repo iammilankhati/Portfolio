@@ -75,6 +75,7 @@
 				flex-direction: column;
 				align-items: center;
 				justify-content: center;
+
 				&--image {
 					display: block;
 					margin: 0 auto;
@@ -93,6 +94,8 @@
 					);
 					.myphoto {
 						width: 100%;
+						object-fit: contain;
+						object-position: bottom;
 					}
 				}
 				&--name {

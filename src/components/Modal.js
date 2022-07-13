@@ -44,7 +44,9 @@ const Modal = ({ data, modalState, setModalState }) => {
 					<div className='base'>
 						<button className='modal-footer--visit-site'>
 							<MdOpenInNew className='open-in-new' />
-							<a href={visit}>VISIT SITE</a>
+							<a href={visit} target='blank'>
+								VISIT SITE
+							</a>
 						</button>
 						<p>
 							<FaTimes onClick={closeModal} />
