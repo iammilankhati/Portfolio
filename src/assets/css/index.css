@@ -214,8 +214,10 @@ nav .navLinks ul li a:hover {
 
 .wrapper-about .about .me_info--image .myphoto {
   width: 100%;
-  object-fit: contain;
-  object-position: bottom;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
 }
 
 .wrapper-about .about .me_info--name {

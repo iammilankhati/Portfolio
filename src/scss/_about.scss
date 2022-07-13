@@ -94,8 +94,10 @@
 					);
 					.myphoto {
 						width: 100%;
-						object-fit: contain;
-						object-position: bottom;
+						height: 100%;
+						object-fit: cover;
+						object-position: center;
+						overflow: hidden;
 					}
 				}
 				&--name {
@@ -150,6 +152,7 @@
 								// border: 2px solid red;
 								height: 100%;
 								background: #00a1a7;
+								// border: 1px solid red;
 							}
 
 							//sliding animation
