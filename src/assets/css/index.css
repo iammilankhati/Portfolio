@@ -12,7 +12,7 @@ body {
 }
 
 .landing {
-  background: #252934;
+  background: url("../images/bg.gif");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;

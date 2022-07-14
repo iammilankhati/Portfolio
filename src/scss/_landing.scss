@@ -1,10 +1,12 @@
 .landing {
-	background: #252934;
+	// background: #252934;
+	background: url("../images/bg.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 	display: flex;
 	align-items: center;
+	// border: 5px solid red;
 
 	&__content {
 		padding: 1.5rem;
