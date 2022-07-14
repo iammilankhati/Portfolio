@@ -8,8 +8,7 @@ const Landing = () => {
 		<section className='landing' id='landing'>
 			<div className='landing__content'>
 				<h1 className='landing__content--greet'>
-					Nameste, I'm{" "}
-					<span className='landing__content--name'>Milan Khati</span>.
+					Hi, I'm <span className='landing__content--name'>Milan Khati</span>.
 				</h1>
 				<h1 className='landing__content--title'>
 					I'm a full-stack web developer.
