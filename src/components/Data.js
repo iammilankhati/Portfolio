@@ -3,7 +3,6 @@ import { BiDesktop } from "react-icons/bi";
 import { FaLightbulb } from "react-icons/fa";
 import { IoIosRocket } from "react-icons/io";
 import { FaLinkedin, FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
-import projectImage from "../assets/images/portfolio.png";
 import projectImage1 from "../assets/images/loginform.png";
 import teach from "../assets/images/teach.png";
 import fullstack from "../assets/images/fullstack.jpg";
@@ -154,86 +153,6 @@ export const projects = [
 			work: "main work here",
 			desc: "desc of project",
 			visit: "https://mydrinks101.netlify.app/",
-		},
-	},
-	{
-		id: 5,
-		image: projectImage1,
-		name: "projectname",
-		category: "MERN-STACK",
-		technologies: "rect/django",
-		model: {
-			image1: projectImage,
-			image2: projectImage1,
-			image3: projectImage,
-			name: "project name",
-			work: "main work here",
-			desc: "desc of project",
-			visit: "https://myform101.netlify.app",
-		},
-	},
-	{
-		id: 6,
-		image: cocktail,
-		name: "projectname",
-		category: "MERN-STACK",
-		technologies: "rect/django",
-		model: {
-			image1: cocktail1,
-			image2: cocktail2,
-			image3: cocktail3,
-			name: "project name",
-			work: "main work here",
-			desc: "desc of project",
-			visit: "https://mydrinks101.netlify.app/",
-		},
-	},
-	{
-		id: 7,
-		image: projectImage1,
-		name: "projectname",
-		category: "MERN-STACK",
-		technologies: "rect/django",
-		model: {
-			image1: projectImage,
-			image2: projectImage1,
-			image3: projectImage,
-			name: "project name",
-			work: "main work here",
-			desc: "desc of project",
-			visit: "https://myform101.netlify.app",
-		},
-	},
-	{
-		id: 8,
-		image: projectImage1,
-		name: "projectname",
-		category: "MERN-STACK",
-		technologies: "rect/django",
-		model: {
-			image1: projectImage,
-			image2: projectImage1,
-			image3: projectImage,
-			name: "project name",
-			work: "main work here",
-			desc: "desc of project",
-			visit: "https://myform101.netlify.app",
-		},
-	},
-	{
-		id: 9,
-		image: projectImage1,
-		name: "projectname",
-		category: "MERN-STACK",
-		technologies: "rect/django",
-		model: {
-			image1: projectImage,
-			image2: projectImage1,
-			image3: projectImage,
-			name: "project name",
-			work: "main work here",
-			desc: "desc of project",
-			visit: "https://myform101.netlify.app",
 		},
 	},
 ];

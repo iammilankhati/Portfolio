@@ -1044,6 +1044,7 @@ nav .navLinks ul li a:hover {
   }
   .wrapper-project .projects_main .projects_list {
     grid-template-columns: repeat(1, 1fr) !important;
+    border: 3px solid red;
     padding: 0 5px;
     width: 100%;
     gap: 5px;
