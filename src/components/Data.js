@@ -14,7 +14,6 @@ import cocktail from "../assets/images/cocktail.png";
 import signup from "../assets/images/signup.png";
 import signuperror from "../assets/images/signuperror.png";
 import signupsuccess from "../assets/images/signupsuccess.png";
-import samplegif from "../assets/images/project1.gif";
 
 export const Features = [
 	{
