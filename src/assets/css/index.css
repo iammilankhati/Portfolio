@@ -12,9 +12,10 @@ body {
 }
 
 .landing {
-  background: url("../images/bg.gif");
+  background: url("../images/bg5.gif");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh;
   display: flex;
   align-items: center;

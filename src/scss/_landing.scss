@@ -1,8 +1,10 @@
 .landing {
 	// background: #252934;
-	background: url("../images/bg.gif");
+	// linear-gradient(to right, rgba(#252934, 0.4), rgba(#252934, 0.4)),
+	background: url("../images/bg5.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	height: 100vh;
 	display: flex;
 	align-items: center;
