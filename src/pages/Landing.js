@@ -14,9 +14,7 @@ const Landing = () => {
 					</span>
 					.
 				</h1>
-				<h1 className='landing__content--title'>
-					I'm a full-stack web developer.
-				</h1>
+				<h1 className='landing__content--title'>I'm a web developer.</h1>
 				<Router>
 					<Link to='#about' className='call_to_action'>
 						<button>

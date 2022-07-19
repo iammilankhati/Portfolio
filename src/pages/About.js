@@ -40,10 +40,9 @@ const About = () => {
 						</div>
 						<h2 className='me_info--name'>Who's this guy?</h2>
 						<p>
-							I'm a Full Stack developer at Smart Solutions in Kathmandu, Nepal.
-							I Have serious passion for making product from scratch and
-							building things beautiful, secure, intuitive, reponsive,fast and
-							dynamic.
+							I'm a web developer from Kathmandu, Nepal. I Have serious passion
+							for making product from scratch and building things beautiful,
+							secure, intuitive, reponsive,fast and dynamic.
 							<Router>
 								<Link to='#contact'>Let's make something special</Link>
 							</Router>
