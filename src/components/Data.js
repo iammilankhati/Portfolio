@@ -192,7 +192,11 @@ export const blogs = [
 ];
 
 export const social = [
-	{ id: 1, icon: <FaFacebook />, link: "https://www.facebook.com/Iam.ilankc" },
+	{
+		id: 1,
+		icon: <FaFacebook />,
+		link: "https://www.facebook.com/iammilankhati",
+	},
 	{
 		id: 2,
 		icon: <FaLinkedin />,
