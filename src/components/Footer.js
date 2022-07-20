@@ -35,7 +35,9 @@ const Footer = () => {
 					{social.map((item) => {
 						return (
 							<li key={item.id}>
-								<a href={item.link}>{item.icon}</a>
+								<a href={item.link} target='blank'>
+									{item.icon}
+								</a>
 							</li>
 						);
 					})}
