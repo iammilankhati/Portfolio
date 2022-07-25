@@ -766,13 +766,13 @@ nav .navLinks ul li a:hover {
 .wrapper-footer .footer article {
   margin: 1rem;
   color: #eeeeee;
-  opacity: 0.5;
+  opacity: 0.7;
   display: flex;
   align-items: center;
 }
 
 .wrapper-footer .footer article span {
-  color: #e01b6c;
+  color: #fa6db3;
   margin-left: 5px;
 }
 
