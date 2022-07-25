@@ -10,11 +10,12 @@ const Landing = () => {
 				<h1 className='landing__content--greet'>
 					Hello, I'm{" "}
 					<span className='landing__content--name'>
-						<h3>Milan Khati</h3>
+						<h3>Milan Khati.</h3>
 					</span>
-					.
 				</h1>
-				<h1 className='landing__content--title'>I'm a web developer.</h1>
+				<h1 className='landing__content--title'>
+					I'm a full-stack web developer.
+				</h1>
 				<Router>
 					<Link to='#about' className='call_to_action'>
 						<button>
