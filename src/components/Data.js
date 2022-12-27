@@ -105,7 +105,7 @@ export const projects = [
 
 		model: {
 			image1: champawoti2,
-			image2: champawoti2,
+			image2: champawoti3,
 			image3: champawoti4,
 			name: 'Sahakari Website',
 			work: 'champwotisaccos.com.np has classic navbar, It has informational header as needed. Users can upload their urgent news on popups, uploads reports, notices and share news and notices even in the slider.',
@@ -140,9 +140,8 @@ export const projects = [
 		technologies: 'rect/django',
 
 		model: {
-			image1: cocktail1,
-			image2: cocktail2,
-			image3: cocktail3,
+			image1: bichardhara2,
+			image2: bichardhara3,
 			name: 'News Website',
 			work: 'In this website, user can easily upload the news according to the categories defined, Using the easy and smooth backend admin can handle (edit/delete/create) the content',
 			desc: 'Visit this smooth, responsive and beautiful news website, Designed is done focusing on reader, so you can read content and navigate easily.',
