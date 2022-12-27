@@ -110,7 +110,7 @@ export const projects = [
 			name: 'Sahakari Website',
 			work: 'champwotisaccos.com.np has classic navbar, It has informational header as needed. Users can upload their urgent news on popups, uploads reports, notices and share news and notices even in the slider.',
 			desc: 'champawotisccos is the sahakari website build using react on front end and django on backend. It is beautiful website with easy and smooth navigations.',
-			visit: 'https://www.champawotisccos.com.np',
+			visit: 'https://www.champawotisaccos.com.np',
 		},
 	},
 
