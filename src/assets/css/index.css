@@ -216,9 +216,9 @@ nav .navLinks ul li a:hover {
 .wrapper-about .about .me_info--image .myphoto {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .wrapper-about .about .me_info--name {
@@ -284,14 +284,14 @@ nav .navLinks ul li a:hover {
   background: #00a1a7;
 }
 
-.wrapper-about .about .me_skills .me_skill--bar .bar_cover [data-aos="rising-bar"] {
+.wrapper-about .about .me_skills .me_skill--bar .bar_cover [data-aos='rising-bar'] {
   transform: translateX(-100%);
   background-color: transparent;
   transition: transform 1s ease-in-out;
   transition: all 1s linear;
 }
 
-.wrapper-about .about .me_skills .me_skill--bar .bar_cover [data-aos="rising-bar"].aos-animate {
+.wrapper-about .about .me_skills .me_skill--bar .bar_cover [data-aos='rising-bar'].aos-animate {
   transform: translateX(0);
   background-color: #00a1a7;
   transition: all 1s linear;
