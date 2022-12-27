@@ -1,10 +1,11 @@
-import React, { useEffect } from "react";
-import { Features, Skills } from "../components/Data";
-import myphoto from "../assets/images/logo1.svg";
-import ProgressBar from "../components/ProgressBar";
-import Aos from "aos";
-import { BrowserRouter as Router } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
+import React, { useEffect } from 'react';
+import { Features, Skills } from '../components/Data';
+// import myphoto from '../assets/images/logo1.svg';
+import mypic from '../assets/images/myphoto.jpg';
+import ProgressBar from '../components/ProgressBar';
+import Aos from 'aos';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const About = () => {
 	useEffect(() => {
@@ -36,9 +37,9 @@ const About = () => {
 				<div className='me'>
 					<div className='me_info'>
 						<div className='me_info--image' data-aos='flip-left'>
-							<img src={myphoto} alt='milankhati' className='myphoto' />
+							<img src={mypic} alt='milankhati' className='myphoto' />
 						</div>
-						<h2 className='me_info--name'>Who's this guy?</h2>
+						<h2 className='me_info--name'>Who's I am?</h2>
 						<p>
 							I'm a full-stack web developer from Kathmandu, Nepal. I Have
 							serious passion for making product from scratch and building
