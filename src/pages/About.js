@@ -39,7 +39,7 @@ const About = () => {
 						<div className='me_info--image' data-aos='flip-left'>
 							<img src={mypic} alt='milankhati' className='myphoto' />
 						</div>
-						<h2 className='me_info--name'>Who's I am?</h2>
+						<h2 className='me_info--name'>Who I am?</h2>
 						<p>
 							I'm a full-stack web developer from Kathmandu, Nepal. I Have
 							serious passion for making product from scratch and building
