@@ -98,7 +98,7 @@ export const categorys = [
 export const projects = [
 	{
 		id: 1,
-		image: champawoti1,
+		image: champawoti2,
 		name: 'Sahakari WebSite',
 		category: 'JAVASCRIPT',
 		technologies: 'React/Django',
@@ -106,7 +106,7 @@ export const projects = [
 		model: {
 			image1: champawoti2,
 			image2: champawoti3,
-			image3: champawoti4,
+			image3: champawoti1,
 			name: 'Sahakari Website',
 			work: 'champwotisaccos.com.np has classic navbar, It has informational header as needed. Users can upload their urgent news on popups, uploads reports, notices and share news and notices even in the slider.',
 			desc: 'champawotisccos is the sahakari website build using react on front end and django on backend. It is beautiful website with easy and smooth navigations.',
