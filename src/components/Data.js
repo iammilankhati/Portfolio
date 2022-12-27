@@ -151,17 +151,17 @@ export const projects = [
 	{
 		id: 4,
 		image: cocktail,
-		name: 'project name',
+		name: 'Drinks Recipe Website',
 		category: 'PYTHON/DJANGO',
-		technologies: 'rect/django',
+		technologies: 'React/Django',
 
 		model: {
 			image1: cocktail1,
 			image2: cocktail2,
 			image3: cocktail3,
-			name: 'project name',
-			work: 'main work here',
-			desc: 'desc of project',
+			name: 'Drinks Recipe Website',
+			work: 'This website provides a collection of recipes that can be used for making drinks. Recipe websites typically include a search function that allows users to search for specific recipes or to filter recipes by ingredient, cuisine type.',
+			desc: 'This website provides a collection of recipes that can be used for making drinks. Recipe websites typically include a search function that allows users to search for specific recipes or to filter recipes by ingredient, cuisine type.',
 			visit: 'https://mydrinks101.netlify.app/',
 		},
 	},
