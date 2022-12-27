@@ -804,7 +804,7 @@ nav .navLinks ul li a:hover {
   }
   .landing__content button {
     font-size: 1.125rem !important;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     padding: 7px 11px;
     letter-spacing: 1px;
     transition: all 0.3s linear;
@@ -1102,6 +1102,18 @@ nav .navLinks ul li a:hover {
   }
   .wrapper-footer .footer .scroll-to-top {
     font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modal {
+    overflow-y: scroll !important;
+  }
+  .modal-slider {
+    padding: 0.5rem !important;
+  }
+  .modal_footer {
+    padding: 0.5rem !important;
   }
 }
 
