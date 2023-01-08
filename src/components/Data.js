@@ -132,22 +132,22 @@ export const projects = [
 		},
 	},
 
-	// {
-	// 	id: 3,
-	// 	image: bichardhara1,
-	// 	name: 'News Website',
-	// 	category: 'PYTHON/DJANGO',
-	// 	technologies: 'rect/django',
+	{
+		id: 3,
+		image: bichardhara1,
+		name: 'News Website',
+		category: 'PYTHON/DJANGO',
+		technologies: 'rect/django',
 
-	// 	model: {
-	// 		image1: bichardhara2,
-	// 		image2: bichardhara3,
-	// 		name: 'News Website',
-	// 		work: 'In this website, user can easily upload the news according to the categories defined, Using the easy and smooth backend admin can handle (edit/delete/create) the content',
-	// 		desc: 'Visit this smooth, responsive and beautiful news website, Designed is done focusing on reader, so you can read content and navigate easily.',
-	// 		visit: 'https://www.bichardhara.com',
-	// 	},
-	// },
+		model: {
+			image1: bichardhara2,
+			image2: bichardhara3,
+			name: 'News Website',
+			work: 'In this website, user can easily upload the news according to the categories defined, Using the easy and smooth backend admin can handle (edit/delete/create) the content',
+			desc: 'Visit this smooth, responsive and beautiful news website, Designed is done focusing on reader, so you can read content and navigate easily.',
+			visit: 'https://www.bichardhara.com',
+		},
+	},
 	{
 		id: 4,
 		image: cocktail,
