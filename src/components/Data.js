@@ -22,6 +22,40 @@ import signup from '../assets/images/signup.png';
 import signuperror from '../assets/images/signuperror.png';
 import signupsuccess from '../assets/images/signupsuccess.png';
 
+// easyshop
+
+import easy1 from '../assets/easyshop/easy1.png';
+import easy2 from '../assets/easyshop/easy2.png';
+import easy3 from '../assets/easyshop/easy3.png';
+import easy4 from '../assets/easyshop/easy4.png';
+import easy5 from '../assets/easyshop/easy5.png';
+import easy6 from '../assets/easyshop/easy6.png';
+
+// gulmiunited
+
+import united1 from '../assets/gulmiunited/united1.png';
+import united2 from '../assets/gulmiunited/united2.png';
+import united3 from '../assets/gulmiunited/united3.png';
+import united4 from '../assets/gulmiunited/united4.png';
+import united5 from '../assets/gulmiunited/united5.png';
+
+// semesterone
+import semesterone1 from '../assets/semesterone/semesterone1.png';
+import semesterone3 from '../assets/semesterone/semesterone3.png';
+
+// sneakercop
+import sneaker1 from '../assets/sneakercop/sneaker1.png';
+import sneaker2 from '../assets/sneakercop/sneaker2.png';
+import sneaker3 from '../assets/sneakercop/sneaker3.png';
+import sneaker4 from '../assets/sneakercop/sneaker4.png';
+import sneaker5 from '../assets/sneakercop/sneaker5.png';
+
+// signup
+
+import login1 from '../assets/signup/login3.png';
+import login2 from '../assets/signup/login4.png';
+import login3 from '../assets/signup/login5.png';
+import login4 from '../assets/signup/signup7.png';
 export const Features = [
 	{
 		id: 1,
@@ -99,7 +133,7 @@ export const projects = [
 	{
 		id: 1,
 		image: champawoti2,
-		name: 'Sahakari WebSite',
+		name: 'Finance Website',
 		category: 'JAVASCRIPT',
 		technologies: 'React/Django',
 
@@ -107,35 +141,70 @@ export const projects = [
 			image1: champawoti2,
 			image2: champawoti3,
 			image3: champawoti1,
-			name: 'Sahakari Website',
+			name: 'Finance Website',
 			work: 'champwotisaccos.com.np has classic navbar, It has informational header as needed. Users can upload their urgent news on popups, uploads reports, notices and share news and notices even in the slider.',
-			desc: 'champawotisccos is the sahakari website build using react on front end and django on backend. It is beautiful website with easy and smooth navigations.',
+			desc: 'This website build using react on front end and django on backend. It is beautiful website with easy and smooth navigations.',
 			visit: 'https://www.champawotisaccos.com.np',
 		},
 	},
-
 	{
 		id: 2,
-		image: projectImage1,
-		name: 'Registration Login Form',
+		image: easy2,
+		name: 'Ecommerce WebSite',
 		category: 'JAVASCRIPT',
-		technologies: 'React/Django',
+		technologies: 'AngularJS',
 
 		model: {
-			image1: signup,
-			image2: signuperror,
-			image3: signupsuccess,
-			name: 'Registration Login Form',
-			work: 'It has Signup form, Login Form. Once you gets registered, You information will be stored in local storage, and will be authenticated, when you login next time',
-			desc: 'Material UI is used to build this beatiful Login registration form. It is ready for production and can be used with the little modifications.',
-			visit: 'https://myform101.netlify.app',
+			image1: easy1,
+			image2: easy2,
+			image3: easy3,
+
+			name: 'Ecommerce Website (Not live)',
+			work: 'Easy shop is Ecommerce site with various features that ecommerce has filter, sorting, checkout, categorization, dynamic view , cart etc.',
+			desc: '',
+			visit: '',
 		},
 	},
 
 	{
 		id: 3,
+		image: sneaker2,
+		name: 'Ecommerce Site',
+		category: 'JAVASCRIPT',
+		technologies: 'NextJS/React',
+
+		model: {
+			image1: sneaker1,
+			image2: sneaker2,
+			image3: sneaker3,
+			name: 'Ecommerce Site',
+			work: 'It is shoe Selling Site on the membership basis.',
+			desc: 'It has awesome design, beatiful sliders, easy navigation, easy login and resgistration',
+			visit: 'https://webfriend.online',
+		},
+	},
+	{
+		id: 4,
+		image: united3,
+		name: 'Finance Website',
+		category: 'JAVASCRIPT',
+		technologies: 'React/Django',
+
+		model: {
+			image1: united2,
+			image2: united3,
+			image3: united4,
+			name: 'Finance Website',
+			work: 'gulmiunited has classic navbar, It has informational header as needed. Users can upload their urgent news on popups, uploads reports, notices and share news and notices even in the slider.',
+			desc: 'This website build using react on front end and django on backend. It is beautiful website with easy and smooth navigations.',
+			visit: 'https://gulmiunitedsaccos.com.np',
+		},
+	},
+
+	{
+		id: 5,
 		image: bichardhara1,
-		name: 'News Website',
+		name: 'Media Website',
 		category: 'PYTHON/DJANGO',
 		technologies: 'rect/django',
 
@@ -149,7 +218,7 @@ export const projects = [
 		},
 	},
 	{
-		id: 4,
+		id: 6,
 		image: cocktail,
 		name: 'Drinks Recipe Website',
 		category: 'PYTHON/DJANGO',
@@ -163,6 +232,23 @@ export const projects = [
 			work: 'This website provides a collection of recipes that can be used for making drinks. Recipe websites typically include a search function that allows users to search for specific recipes or to filter recipes by ingredient, cuisine type.',
 			desc: 'This website provides a collection of recipes that can be used for making drinks. Recipe websites typically include a search function that allows users to search for specific recipes or to filter recipes by ingredient, cuisine type.',
 			visit: 'https://mydrinks101.netlify.app/',
+		},
+	},
+	{
+		id: 7,
+		image: login3,
+		name: 'NextJS Authentication',
+		category: 'JAVASCRIPT',
+		technologies: 'NextJS/React',
+
+		model: {
+			image1: login2,
+			image2: login1,
+			image3: login4,
+			name: 'NextJS Authentication',
+			work: 'Easy and efficient way for handling login, registration in NextJS',
+			desc: 'User can login using goole, github, or  credentials',
+			visit: 'https://next-authentication.netlify.app/',
 		},
 	},
 ];

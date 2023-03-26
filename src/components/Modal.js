@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { MdOpenInNew } from "react-icons/md";
-import { FaChevronLeft, FaChevronRight, FaTimes } from "react-icons/fa";
+import React, { useState } from 'react';
+import { MdOpenInNew } from 'react-icons/md';
+import { FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
 const Modal = ({ data, modalState, setModalState }) => {
 	const { image1, image2, image3, name, work, desc, visit } = data[0].model;
 	const images = [image1, image2, image3];
@@ -19,8 +19,8 @@ const Modal = ({ data, modalState, setModalState }) => {
 								src={image}
 								alt='model'
 								className={
-									(currentImg > index && "nextImg") ||
-									(currentImg < index && "prevImg")
+									(currentImg > index && 'nextImg') ||
+									(currentImg < index && 'prevImg')
 								}
 							/>
 						);
@@ -42,12 +42,18 @@ const Modal = ({ data, modalState, setModalState }) => {
 					<hr />
 					<p className='modal_footer--description'>{desc}</p>
 					<div className='base'>
-						<button className='modal-footer--visit-site'>
-							<MdOpenInNew className='open-in-new' />
-							<a href={visit} target='blank'>
-								VISIT SITE
-							</a>
-						</button>
+						{visit ? (
+							<button className='modal-footer--visit-site'>
+								<MdOpenInNew className='open-in-new' />
+
+								<a href={visit} target='blank'>
+									VISIT SITE
+								</a>
+							</button>
+						) : (
+							''
+						)}
+
 						<p>
 							<FaTimes onClick={closeModal} />
 						</p>

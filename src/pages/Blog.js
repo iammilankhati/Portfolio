@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import { blogs } from "../components/Data";
-import { BrowserRouter as Router } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import { blogs } from '../components/Data';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+
 const Blog = () => {
 	useEffect(() => {
 		Aos.init({
@@ -20,8 +21,8 @@ const Blog = () => {
 				<div className='blogs'>
 					{blogs.map((blog) => {
 						return (
-							<Router key={blog.id}>
-								<Link to='#' className='blog_link'>
+							<div key={blog.id}>
+								<Link to={`#blog/${blog.id}`} className='blog_link'>
 									<div className='blog' key={blog.id}>
 										<div className='image'>
 											<img src={blog.image} alt='blog' />
@@ -34,7 +35,7 @@ const Blog = () => {
 										</p>
 									</div>
 								</Link>
-							</Router>
+							</div>
 						);
 					})}
 				</div>

@@ -44,9 +44,7 @@ const About = () => {
 							I'm a full-stack web developer from Kathmandu, Nepal. I Have
 							serious passion for making product from scratch and building
 							things beautiful, secure, intuitive, reponsive,fast and dynamic.
-							<Router>
-								<Link to='#contact'>Let's make something special</Link>
-							</Router>
+							<Link to='#contact'>Let's make something special</Link>
 						</p>
 					</div>
 					<div className='me_skills'>
