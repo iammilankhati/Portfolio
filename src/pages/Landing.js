@@ -49,7 +49,7 @@ const Landing = () => {
 					</span>
 				</h1>
 				<h1 className='landing__content--title'>
-					I'm a full stack Software Engineer.
+					I'm a Software Engineer.
 				</h1>
 
 				<Link to='#about' className='call_to_action'>
