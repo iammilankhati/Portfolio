@@ -48,7 +48,7 @@ const Landing = () => {
 						<h3 style={{ display: 'inline' }}>Milan Khati.</h3>
 					</span>
 				</h1>
-				<h1 className='landing__content--title' style={{marginTop:"5px"}}>
+				<h1 className='landing__content--title' style={{marginTop:"15px"}}>
 					I'm a Software Engineer.
 				</h1>
 
