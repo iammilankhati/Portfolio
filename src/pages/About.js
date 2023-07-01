@@ -41,7 +41,7 @@ const About = () => {
 						</div>
 						<h2 className='me_info--name'>Who I am?</h2>
 						<p>
-							I'm a full-stack web developer from Kathmandu, Nepal. I Have
+							I'm a Senior Software Engineer from Kathmandu, Nepal. I Have
 							serious passion for making product from scratch and building
 							things beautiful, secure, intuitive, reponsive,fast and dynamic.
 							<Link to='#contact'>Let's make something special</Link>
