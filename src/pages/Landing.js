@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+import { motion } from "framer-motion";
 
 import { FaGithubSquare, FaLinkedin, FaMailBulk } from "react-icons/fa";
 const Landing = () => {
@@ -45,23 +46,22 @@ const Landing = () => {
         <h1 className="landing__content--greet">
           Hello, I'm{" "}
           <span className="landing__content--name">
-            <h3 style={{ display: "inline" }}>Milan Khati. 👋</h3>
+            <h3 style={{ display: "inline" }}>Milan Khati 👋</h3>
           </span>
         </h1>
         <h1 className="landing__content--title" style={{ marginTop: "15px" }}>
           I'm a Software Developer.
         </h1>
 
-        <div className="motivational-quotes">
+        <div className="motivational-quotes" style={{}}>
           <p>"Kindness costs nothing 😊"</p>
           <p>"Be humble"</p>
-          <p>"Strive for progress, not perfection"</p>
-          <p>"Believe in yourself"</p>
+          <p>"Coding the future, one line at a time"</p>
         </div>
         <Link to="#about" className="call_to_action">
-          <button>
+          <motion.button>
             View my work <AiOutlineArrowRight className="arrow-right" />
-          </button>
+          </motion.button>
         </Link>
       </div>
     </section>

@@ -62,6 +62,16 @@ body {
   font-weight: 500;
   font-size: 2.7rem;
 }
+.landing__content .motivational-quotes {
+  color: white;
+  margin-top: 1rem;
+}
+.landing__content .motivational-quotes p {
+  font-style: italic;
+}
+.landing__content .motivational-quotes p::first-letter {
+  font-size: 1.8rem;
+}
 .landing__content button {
   background: transparent;
   font-size: 1.25rem;
@@ -714,6 +724,13 @@ nav .navLinks ul li a:hover {
   .landing__content--name {
     font-size: 2.1rem;
   }
+  .landing__content .motivational-quotes p {
+    font-style: italic;
+    font-size: 0.6rem;
+  }
+  .landing__content .motivational-quotes p::first-letter {
+    font-size: 1.8rem;
+  }
   .landing__content button {
     font-size: 1.125rem !important;
     font-family: "Courier New", Courier, monospace;
@@ -1034,4 +1051,4 @@ nav .navLinks ul li a:hover {
 
 .active-btn {
   color: #e01b6c;
-}/*# sourceMappingURL=index.css.map */
+}

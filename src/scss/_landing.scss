@@ -9,7 +9,6 @@
 	height: 100vh;
 	display: flex;
 	align-items: center;
-	// border: 5px solid red;
 
 	&__content {
 		padding: 1.5rem;
@@ -49,10 +48,24 @@
 			font-size: 3rem;
 			font-weight: 350;
 		}
+	
 		&--name {
 			color: #e01b6c;
 			font-weight: 500;
 			font-size: 2.7rem;
+		}
+
+		.motivational-quotes {
+			color:white;
+			margin-top: 1rem;
+				p{
+					font-style: italic;
+				
+				}
+				p::first-letter {
+					font-size: 1.8rem;
+					// initial-letter: 1.3;
+				}
 		}
 
 		button {
@@ -85,3 +98,4 @@
 		}
 	}
 }
+
