@@ -85,15 +85,15 @@ export const Features = [
 export const Skills = [
   { id: 1, skill: "ReactJS", percentage: 90 },
   { id: 2, skill: "NextJS", percentage: 90 },
-  { id: 3, skill: "NestjS", percentage: 70 },
-  { id: 4, skill: "NodeJS", percentage: 70 },
+  { id: 3, skill: "NestjS", percentage: 50 },
+  { id: 4, skill: "NodeJS", percentage: 50 },
   { id: 5, skill: "CSS/SASS/Tailwind", percentage: 80 },
-  { id: 6, skill: "DB design", percentage: 70 },
-  { id: 7, skill: "sql/nosql", percentage: 70 },
-  { id: 8, skill: "Prisma/graphql/express", percentage: 70 },
-  { id: 9, skill: "Jest/testing-library", percentage: 60 },
-  { id: 10, skill: "Figma", percentage: 50 },
-  { id: 11, skill: "Photoshop", percentage: 50 },
+  { id: 6, skill: "DB design", percentage: 50 },
+  { id: 7, skill: "sql/nosql", percentage: 45 },
+  { id: 8, skill: "Prisma/graphql/express", percentage: 50 },
+  { id: 9, skill: "Jest/testing-library", percentage: 45 },
+  { id: 10, skill: "Figma", percentage: 40 },
+  { id: 11, skill: "Photoshop", percentage: 30 },
 ];
 
 export const links = [
