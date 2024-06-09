@@ -33,7 +33,10 @@ const Projects = () => {
             textAlign: "center",
           }}
         >
-          <i>Few projects before the start of my professional carrier.</i>
+          <i>
+            These are how I started my Journey 😊 long ago. I love my art. I
+            love everyline of code I wrote.
+          </i>
         </div>
 
         <main className="projects_main">
