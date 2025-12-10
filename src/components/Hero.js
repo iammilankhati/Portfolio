@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope, FaArrowDown } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "./Hero.css";
 
 const Hero = () => {
@@ -38,17 +38,6 @@ const Hero = () => {
         type: "spring",
         damping: 12,
         stiffness: 100,
-      },
-    },
-  };
-
-  const floatingVariants = {
-    animate: {
-      y: [0, -20, 0],
-      transition: {
-        duration: 3,
-        repeat: Infinity,
-        ease: "easeInOut",
       },
     },
   };
@@ -149,15 +138,6 @@ const Hero = () => {
           </a>
         </motion.div>
 
-        {/* Scroll Indicator */}
-        <motion.div
-          variants={floatingVariants}
-          animate="animate"
-          className="scroll-indicator"
-        >
-          <FaArrowDown />
-          <span>Scroll to explore</span>
-        </motion.div>
       </motion.div>
 
       {/* Floating Elements */}
