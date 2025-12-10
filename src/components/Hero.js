@@ -98,7 +98,7 @@ const Hero = () => {
         </motion.h1>
 
         <motion.h2 variants={itemVariants} className="hero-subtitle">
-          Founder & SaaS Builder | Delivering Digital Solutions
+          Founder & Software Engineer | Delivering Digital Solutions
         </motion.h2>
 
         {/* Description */}
